@@ -1,17 +1,14 @@
 # To-do App
 
-### Objetivo
-El objetivo de la aplicación es la de proveer de una manera intuitiva y rápida la habilidad de crear y gestionar tareas. Cada tarea consta de un nombre, una fecha de cumplimiento y una prioridad.
+### RecyclerView
+Las tareas se muestras en una lista contenida en el RecyclerView. Al añadir una tarea, esta se mostrará en la primera posición. Al marcarla como terminada, se irá a la última posición. 
 
-### Requisitos
-- **Diseño**: La aplicación cumple con un diseño minimalista y ligero a la vista. Se complementa con el soporte de tanto un modo claro como un modo oscuro.
-- **Values y traducciones**: La aplicación está desarrollada de manera que exista la mínima cantidad de valores hard coded: esto significa que todas las cadenas de texto, todos los colores y todas las dimensiones de la interfaz se encuentran almacenados en el directorio values. Además, esta traducida a los idiomas Español e Inglés.\
-- **Intent/Bundle**: Se ha empleado el uso de las clases Intent y Bundle para pasar datos entre actividades.
-- **SavedInstanceStated**: los datos no se pierden cuando se cambia la orientación del dispositivo.
-- **Portrait/Landscape**: La aplicación se adapta correctamente tanto cuando el dispositivo está en orientación vertical como en horizontal.
+### Firebase Realtime
+La aplicación almacena las tareas introducidas por el usuario con su nombre, su fecha de cumplimiento y su prioridad. Éstas se puedan marcar como completadas o borrarlas, todo ello siendo actualizado en tiempo real en la base de datos.
 
-### Extras
-- **Persistencia**: Al no ser Firebase contenido del presente tema, se ha optado por almacenar las tareas en un fichero de texto plano. De esta forma, todas las tareas permanecen guardadas en la memoria interna del dispositivo, pudiendo cerrar la aplicación o apagar el teléfono mantentiendo todas las tareas intactas.
-- **Bienvenida**: La primera vez que se ejecuta la aplicación, se crean algunas tareas de ejemplo para ayudar al usuario a entender mejor su funcionamiento. Estas tareas no vuelven a crearse, es decir, que si se eliminan no volverán a aparecer.
-- **Diseño**: Se ha incluido algunos elementos al diseño para hacer más amena la experiencia al usuario. Por ejemplo, si una tarea no se ha realizado antes de cumplir su fecha de expiración, la fecha se pondrá en color rojo.
+### Firebase Auth
+La aplicación permite el registro introduciendo un correo electrónico y contraseña, o directamente haciendo inicio de sesión con una cuenta Google. Las tareas no son públicas, es decir, cada usuario tiene su propia lista de tareas privada.
+El inicio de sesión se guarda automáticamente. Una vez introducida una cuenta, no se volverá a pedir al usuario. **Si se desea salir de la sesión, se puede hacer click en la imagen superior derecha.**
 
+### Firebase Storage
+La aplicación guarda imágenes en forma de fotos de perfil que aparecerán en la esquina superior derecha. **Para cambiar la foto, mantenga presionada la imagen superior derecha.** La imagen por defecto es el logo de la aplicación.
