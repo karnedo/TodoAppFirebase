@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="logo">logo</string>
+    <string name="Task_name">Task name</string>
+    <string name="New_task">New task</string>
+    <string name="task">task</string>
+    <string name="Task_due_date">Task due date</string>
+    <string name="date">date</string>
+    <string name="title_activity_add_card">Add task</string>
+    <string name="Add_a_task">Add a task</string>
+    <string name="go_back">go back</string>
+    <string name="Example_task_name">Go shopping</string>
+    <string name="Priority">Priority</string>
+    <string name="Low">Low</string>
+    <string name="Medium">Medium</string>
+    <string name="High">High</string>
+    <string name="Remove_task">Remove task</string>
+    <string name="Save_task">Save task</string>
+    <string name="Pick_a_day">Pick a day</string>
+    <string name="Need_choose_name">You need to choose a name</string>
+    <string name="Need_choose_date">You need to choose a day</string>
+    <string name="Need_choose_time">You need to choose an hour</string>
+    <string name="Pick_a_time">Pick a time</string>
+    <string name="time">time</string>
+    <string name="Sign_up">Sign up</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Sign_in">Sign in</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="Could_not_register">Could not register</string>
+    <string name="Successful_register">Successfully registered</string>
+    <string name="Could_not_sign_in">Wrong credentials</string>
+    <string name="Profile">Profile</string>
+    <string name="Loading_picture">Loading picture...</string>
+    <string name="Introduce_credentials">You need to introduce all the credentials</string>
+</resources>

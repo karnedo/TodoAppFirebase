@@ -1,0 +1,20 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="logo_margin">4dp</dimen>
+    <dimen name="small_border_margin">8dp</dimen>
+    <dimen name="medium_border_margin">16dp</dimen>
+    <dimen name="activity_title_margin">28dp</dimen>
+    <dimen name="margin_between_texts">32dp</dimen>
+
+    <dimen name="edit_text_height">48dp</dimen>
+    <dimen name="edit_text_width">314dp</dimen>
+    <dimen name="spinner_width">258dp</dimen>
+    <dimen name="spinner_height">48dp</dimen>
+
+    <dimen name="sign_up_text_sign">35sp</dimen>
+
+    <dimen name="button_size">58dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>

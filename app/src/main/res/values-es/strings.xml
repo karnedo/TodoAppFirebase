@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="logo">logo</string>
+    <string name="Task_name">Nombre de la tarea</string>
+    <string name="New_task">Nueva tarea</string>
+    <string name="task">tarea</string>
+    <string name="Task_due_date">Fecha de la tarea</string>
+    <string name="date">fecha</string>
+    <string name="title_activity_add_card">Añadir tarea</string>
+    <string name="Add_a_task">Añadir una tarea</string>
+    <string name="go_back">volver</string>
+    <string name="Example_task_name">Ir de compras</string>
+    <string name="Priority">Prioridad</string>
+    <string name="Low">Baja</string>
+    <string name="Medium">Media</string>
+    <string name="High">Alta</string>
+    <string name="Remove_task">Eliminar tarea</string>
+    <string name="Save_task">Save task</string>
+    <string name="Pick_a_day">Elige un día</string>
+    <string name="Need_choose_name">Debe escribir un nombre</string>
+    <string name="Need_choose_date">Debe elegir un día</string>
+    <string name="Need_choose_time">Debe elegir una hora</string>
+    <string name="Pick_a_time">Elige una hora</string>
+    <string name="time">hora</string>
+    <string name="Sign_up">Regístrese</string>
+    <string name="Email">Correo electrónico</string>
+    <string name="Password">Contraseña</string>
+    <string name="Sign_in">Iniciar sesión</string>
+    <string name="title_activity_login">Iniciar sesión</string>
+    <string name="Could_not_register">No ha sido posible el registro</string>
+    <string name="Successful_register">Registro completado</string>
+    <string name="Could_not_sign_in">Credenciales incorrectas</string>
+    <string name="Profile">Perfil</string>
+    <string name="Loading_picture">Cargando imagen...</string>
+    <string name="Introduce_credentials">Debe introducir todas las credenciales</string>
+</resources>

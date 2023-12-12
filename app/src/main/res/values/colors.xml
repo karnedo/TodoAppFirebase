@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FFFF0000</color>
+    <color name="warningTextColor">#FF6600</color>
+
+    <color name="primaryColor">#FF009DFF</color>
+
+    <color name="colorBackgroundLight">#FFFFFFFF</color>
+    <color name="colorBackgroundDark">#222222</color>
+    <color name="colorOnBackgroundLight">#FF000000</color>
+    <color name="colorOnBackgroundDark">#FFFFFFFF</color>
+    <color name="colorSurfaceLight">#FFFFFFFF</color>
+    <color name="colorSurfaceDark">#FF000000</color>
+    <color name="colorOnSurfaceLight">#FF000000</color>
+    <color name="colorOnSurfaceDark">#FFFFFFFF</color>
+
+    <color name="textColorLight">#FF000000</color>
+    <color name="textColorDark">#FFFFFFFF</color>
+
+</resources>

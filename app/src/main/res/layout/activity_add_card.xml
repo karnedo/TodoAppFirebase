@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCardActivity">
+
+    <TextView
+        android:id="@+id/txt_add_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_title_margin"
+        android:layout_marginTop="@dimen/activity_title_margin"
+        android:text="@string/New_task"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/fab_back"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edt_task_name"
+        android:layout_width="@dimen/edit_text_width"
+        android:layout_height="@dimen/edit_text_height"
+        android:layout_marginStart="@dimen/medium_border_margin"
+        android:layout_marginTop="@dimen/margin_between_texts"
+        android:autofillHints="@string/task"
+        android:ems="10"
+        android:hint="@string/Task_name"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_add_card" />
+
+    <EditText
+        android:id="@+id/edt_date"
+        android:layout_width="@dimen/edit_text_width"
+        android:layout_height="@dimen/edit_text_height"
+        android:layout_marginStart="@dimen/medium_border_margin"
+        android:layout_marginTop="@dimen/margin_between_texts"
+        android:autofillHints="@string/date"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:hint="@string/Pick_a_day"
+        android:inputType="date"
+        android:onClick="showCalendar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_task_name" />
+
+    <Spinner
+        android:id="@+id/sp_priority"
+        android:layout_width="@dimen/spinner_width"
+        android:layout_height="@dimen/spinner_height"
+        android:layout_marginStart="@dimen/medium_border_margin"
+        android:layout_marginTop="@dimen/margin_between_texts"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_date" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_back"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="@dimen/button_size"
+        android:layout_marginStart="@dimen/medium_border_margin"
+        android:layout_marginTop="@dimen/medium_border_margin"
+        android:backgroundTint="@color/white"
+        android:clickable="true"
+        android:contentDescription="@string/go_back"
+        android:focusable="true"
+        android:onClick="goBack"
+        app:fabCustomSize="58dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearance="@style/FabShape"
+        app:srcCompat="@drawable/ic_back_arrow"
+        app:tint="@color/black" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_save_task"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="@dimen/button_size"
+        android:layout_marginEnd="@dimen/medium_border_margin"
+        android:layout_marginBottom="@dimen/medium_border_margin"
+        android:backgroundTint="@color/white"
+        android:clickable="true"
+        android:contentDescription="@string/Add_a_task"
+        android:focusable="true"
+        android:onClick="addTask"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:shapeAppearance="@style/FabShape"
+        app:srcCompat="@drawable/ic_save_task"
+        app:tint="@color/black" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

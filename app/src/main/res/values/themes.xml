@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TodoApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="android:colorBackground">@color/colorBackgroundLight</item>
+        <item name="colorOnBackground">@color/colorBackgroundLight</item>
+        <item name="colorSurface">@color/colorSurfaceLight</item>
+        <item name="colorOnSurface">@color/colorOnSurfaceLight</item>
+        <item name="android:textColor">@color/textColorLight</item>
+    </style>
+
+    <style name="Theme.TodoApp" parent="Base.Theme.TodoApp" />
+
+    <!-- Estilo para hacer los botones flotantes redondos -->
+    <style name="FabShape" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerSize">100%</item>
+    </style>
+</resources>
